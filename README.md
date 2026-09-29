@@ -1,15 +1,16 @@
 # Acid for btop
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -29,23 +30,6 @@ theme_background = true
 `theme_background = false` keeps the terminal's own background instead of the
 theme's `main_bg`, which is what to use with a transparent terminal.
 
-btop accepts a theme without validating it: a malformed colour, an unknown key
-and a missing themes directory all pass silently, so a typo shows up as a
-default colour rather than an error.
+## Credits
 
-## Files
-
-- `acid-acetic.theme`
-- `acid-citric.theme`
-- `acid-lactic.theme`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/btop/acid.theme.tera`](https://github.com/acid-theme/acid/blob/main/ports/btop/acid.theme.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
