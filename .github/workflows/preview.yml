@@ -8,6 +8,7 @@ on:
     paths:
       - "acid-acetic.theme"
       - "acid-citric.theme"
+      - "acid-lactic.theme"
       - "preview/**"
   workflow_dispatch:
 
